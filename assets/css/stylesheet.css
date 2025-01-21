@@ -1,0 +1,100 @@
+* {
+    text-align: center;
+}
+
+body {
+    padding-top: 65px;
+    padding-bottom: 20px;
+}
+
+.background {
+    background-image: url(/assets/img/Background.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    color: white;
+}
+
+.myImg {
+    width: 10em;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 2em auto;
+}
+
+.middle {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.equipIcon {
+    width: 6rem;
+    height: 6rem;
+}
+
+.equipIconSmall {
+    width: 4rem;
+    height: 4rem;
+}
+
+.spell-icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+.none{
+    color: white;
+    border: none;
+}
+
+.center{
+    margin: auto;
+     width: 50%;
+}
+
+.landing-text {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 1200px; /* Begrenzung der Breite */
+}
+
+.linear-background{
+    background: linear-gradient(135deg, #000000, #001d49);
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #ffffff, #91bdff);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    text-align: left; /* Text linksbündig innerhalb der Karten */
+}
+
+.border-top-white{
+    border-top: white 2px solid;
+}
+
+.row {
+    justify-content: center; /* Zentriere die Cards in der Reihe */
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text .link-text{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    text-decoration: none;
+}
+
+.border-radius-contact{
+    border-radius: 8px;
+}
