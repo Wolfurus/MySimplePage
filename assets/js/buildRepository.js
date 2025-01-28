@@ -502,6 +502,7 @@ function buildView(buildId) {
                 _druidRobe.spells = [_obsessiveBurst, _aggression],
                 _hunterShoes,
                 _hunterShoes.spells = [_refreshingSprint, _quickThinker],
+                _shadowcaller,
                 _shadowcaller.spells = [_cursedTar, _cursedBeam, _innerShadow, _furios],
                 _cryptcandle,
                 _caerleonCape,
